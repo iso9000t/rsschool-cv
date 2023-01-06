@@ -49,4 +49,4 @@ After gaining valuable experience in the financial industry and accounting, I ha
 
 ##### **Code examples:**
     // the hello world program
-console.log('Hello World');
+    console.log('Hello World');
