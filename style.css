@@ -208,7 +208,9 @@ padding: 10px;
 
 body {
     background: rgb(107, 40, 19);
-    background: linear-gradient(180deg, rgba(107, 40, 19, 1) 0%, rgba(163, 82, 62, 1) 55%, rgb(182, 150, 121) 86%);
+    background: linear-gradient(180deg, rgba(107, 40, 19, 1) 0%, rgba(163, 82, 62, 1) 55%, rgb(182, 141, 121) 86%);
+
+   
 }
 
 footer {
