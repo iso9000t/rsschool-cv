@@ -10,6 +10,7 @@ h1, h2 {
     padding: 15px;
     text-shadow: 8px 8px 10px #0000008c;
 }
+
 h2 {
     font-size: larger;
 }
@@ -18,24 +19,23 @@ p, li {
     font-size: 1.5 rem;
     font-family: Mukta;
     text-align: left;
-    line-height: 120%;
-    
+    line-height: 120%; 
 }
-li{
 
+li{
     list-style-position: inside;
 }
+
 h3 {
     font-family: poppins;
     font-variant: small-caps;
     font-size: 1.29rem;
-    color: rgb(138, 76, 47);
-    
+    color: rgb(138, 76, 47);  
 }
+
 a {
     color: rgb(255, 255, 255);
-    transition: color 0.7s ease-out 100ms;
-    
+    transition: color 0.7s ease-out 100ms;   
 }
 footer a {
     color: rgb(220, 199, 190);
@@ -44,28 +44,41 @@ footer a {
     font-size: 1.29rem;
     transition: color 0.7s ease-out 100ms;
 }
-main p, h3 {
+
+main h3 {
 color: rgb(82, 37, 37);
 margin: 10px 30px 0 30px;
 line-height: 150%;
+text-align: center;
 }
+
+main p {
+    color: rgb(82, 37, 37);
+    margin: 10px 30px 0 30px;
+    line-height: 150%;
+}
+
 main li {
 color: rgb(85, 22, 22);
 }
+
 main h3 {
     font-size: 2rem;
 }
+
 aside h3 {
     color: rgb(255, 255, 255);
     text-align: center;
     text-shadow: 3px 3px 6px #3100008c;
 }
+
 aside li {
     color: rgb(255, 255, 255);
     line-height: 180%;
     font-weight: 300;
     
 }
+
 hr {
 height: 1.5px;
 background-color: rgb(116, 54, 54);
@@ -80,9 +93,10 @@ aside ul{
 main ul {
    padding-left: 1em;
 }
+
 .contact {
     margin: 5% auto 0 auto;
-    width: 95%;
+    width: 96%;
     /*background-color: rgba(107, 40, 19, 0.6);*/
     padding: 0 0 20px 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
@@ -90,7 +104,7 @@ main ul {
 
 .skills {
     margin: 5% auto 0 auto;
-    width: 95%;
+    width: 96%;
     /*background-color: rgba(107, 40, 19, 0.6);*/
     padding: 0 0 20px 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
@@ -98,49 +112,62 @@ main ul {
 
 .english {
     margin: 5% auto 0 auto;
-    width: 95%;
+    width: 96%;
     /*background-color: rgba(107, 40, 19, 0.6);*/
     padding: 0 0 20px 0;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
 }
-@media screen and (min-width: 1000px) {
+
+@media screen and (min-width: 1024px) {
     .layout {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        
+        grid-template-columns: minmax(auto,330px);
         grid-template-rows: 120px 1fr 5em;
         grid-template-areas:
             "header-area header-area"
             "sidebar main"
             "footer footer";
         }
+
     head {
         max-width: 80%;
         }
+
     .contact {
-        position: sticky;
-        margin: 3% auto 0 auto;
-        width: 87%;
+        margin: 0 auto 0 auto;
+        width: 95%;
         /*background-color: rgba(107, 40, 19, 0.6);*/
         padding: 0 0 20px 0;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
+        box-shadow: 0 0 40px rgba(0, 0, 0, 0.5)
         }
     
     .skills {
-        margin: 10% auto 0 auto;
-        width: 87%;
+        margin: 5% auto 0 auto;
+        width: 95%;
         /*background-color: rgba(107, 40, 19, 0.6);*/
         padding: 0 0 20px 0;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
         }
     
     .english {
-        margin: 10% auto 0 auto;
-        width: 87%;
+        margin: 5% auto 0 auto;
+        width: 95%;
         /*background-color: rgba(107, 40, 19, 0.6);*/
         padding: 0 0 20px 0;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5)
         }
-}
+
+    main {
+        background-color: rgb(205, 160, 128);
+        grid-area: main;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding-bottom: 7px;
+        margin-right: 6px;
+        margin-left: 10px;
+        /*margin-bottom: 4.88%;*/
+        }
+    }
 
 header {
     
@@ -148,21 +175,18 @@ header {
     display: grid;
     padding-bottom: 10px;
 }
+
 main {
     background-color: rgb(205, 160, 128);
     grid-area: main;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: 7px;
+    
     box-sizing: border-box;
 }
+
 aside {
-    display: grid;
-    margin: auto;
-    position: relative;
-    bottom: 12.6%;  
-    grid-area: sidebar;
-    /*padding: 30px 30px 30px 15px;*/
-    
+    display: grid; 
 }
 
 .code {
@@ -171,10 +195,12 @@ aside {
     margin-bottom: 15px;
     margin-left: 10px;
 }
+
 .code p {
  
     padding-bottom: 20px;
 }
+
 code {
 margin: 10px;
 padding: 10px;
@@ -182,7 +208,7 @@ padding: 10px;
 
 body {
     background: rgb(107, 40, 19);
-    background: linear-gradient(180deg, rgba(107, 40, 19, 1) 0%, rgba(163, 82, 62, 1) 55%, rgb(199, 155, 132) 86%);
+    background: linear-gradient(180deg, rgba(107, 40, 19, 1) 0%, rgba(163, 82, 62, 1) 55%, rgb(182, 141, 121) 86%);
 }
 
 footer {
@@ -197,6 +223,7 @@ footer {
 .my-git {
     margin: auto;
 }
+
 .date {
     color: rgb(215, 215, 215);
     font-family: poppins;
@@ -205,15 +232,21 @@ footer {
     margin: auto;
     filter: opacity(75%)
 }
+
 .RSS-logo {
     margin: auto;
     padding: 20px;
     filter: opacity(75%)
 }
+
 footer a:hover {
     color: rgb(255, 223, 96);
     filter: opacity(100%);
-}a:hover {
+    cursor: pointer;
+}
+
+a:hover {
+    cursor: pointer;
     color: rgb(255, 223, 96);
     filter: opacity(100%);
 }
