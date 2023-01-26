@@ -38,7 +38,7 @@ a {
     transition: color 0.7s ease-out 100ms;   
 }
 footer a {
-    color: rgb(220, 199, 190);
+    color: rgb(255, 255, 255);
     font-family: poppins;
     font-weight: 600;
     font-size: 1.29rem;
@@ -46,20 +46,20 @@ footer a {
 }
 
 main h3 {
-color: rgb(82, 37, 37);
+color: rgb(255, 255, 255);
 margin: 10px 30px 0 30px;
 line-height: 150%;
 text-align: center;
 }
 
 main p {
-    color: rgb(82, 37, 37);
+    color: rgb(255, 255, 255);
     margin: 10px 30px 0 30px;
     line-height: 150%;
 }
 
 main li {
-color: rgb(85, 22, 22);
+color: rgb(255, 255, 255);
 }
 
 main h3 {
@@ -81,7 +81,7 @@ aside li {
 
 hr {
 height: 1.5px;
-background-color: rgb(116, 54, 54);
+background-color: rgb(122, 171, 180);
 border: none;
 }
 
@@ -159,7 +159,7 @@ main ul {
         }
 
     main {
-        background-color: rgb(205, 160, 128);
+        background-color: rgb(128, 155, 205);
         grid-area: main;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         padding-bottom: 7px;
@@ -177,7 +177,7 @@ header {
 }
 
 main {
-    background-color: rgb(205, 160, 128);
+    background: linear-gradient(180deg, rgb(12, 55, 75) 0%, rgb(62, 141, 163) 96%, rgb(42, 110, 150) 99.99%);
     grid-area: main;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-bottom: 7px;
@@ -191,7 +191,7 @@ aside {
 
 .code {
     position: relative;
-    color: rgb(85, 22, 22); 
+    color: rgb(22, 37, 85); 
     margin-bottom: 15px;
     margin-left: 10px;
 }
@@ -207,10 +207,8 @@ padding: 10px;
 }
 
 body {
-    background: rgb(107, 40, 19);
-    background: linear-gradient(180deg, rgba(107, 40, 19, 1) 0%, rgba(163, 82, 62, 1) 55%, rgb(182, 141, 121) 86%);
-
-   
+    background: rgb(19, 79, 107);
+    background: linear-gradient(180deg, rgb(14, 64, 87) 0%, rgb(62, 141, 163) 96%, rgb(42, 110, 150) 99%);
 }
 
 footer {
