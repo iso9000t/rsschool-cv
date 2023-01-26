@@ -20,6 +20,7 @@ p, li {
     font-family: Mukta;
     text-align: left;
     line-height: 120%; 
+    font-weight: 300;
 }
 
 li{
@@ -30,7 +31,7 @@ h3 {
     font-family: poppins;
     font-variant: small-caps;
     font-size: 1.29rem;
-    color: rgb(138, 76, 47);  
+    /*color: rgb(138, 76, 47);  */
 }
 
 a {
@@ -191,7 +192,7 @@ aside {
 
 .code {
     position: relative;
-    color: rgb(22, 37, 85); 
+    color: rgb(244, 232, 55); 
     margin-bottom: 15px;
     margin-left: 10px;
 }
@@ -208,7 +209,7 @@ padding: 10px;
 
 body {
     background: rgb(19, 79, 107);
-    background: linear-gradient(180deg, rgb(14, 64, 87) 0%, rgb(62, 141, 163) 96%, rgb(42, 110, 150) 99%);
+    background: linear-gradient(180deg, rgb(14, 65, 87) 0%, rgb(62, 141, 163) 96%, rgb(42, 110, 150) 99%);
 }
 
 footer {
